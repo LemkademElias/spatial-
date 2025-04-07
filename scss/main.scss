@@ -1,0 +1,12 @@
+// Import de Bootstrap depuis node_modules
+@use "../node_modules/bootstrap/scss/bootstrap";
+
+// Import de Font Awesome (icônes pleines et de marque)
+@use "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@use "../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@use "../node_modules/@fortawesome/fontawesome-free/scss/brands";
+
+// Tu peux ajouter tes styles ici après les imports
+body {
+  background-color: #f8f9fa;
+}
