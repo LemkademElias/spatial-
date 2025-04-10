@@ -1,0 +1,10 @@
+body::before {
+  font-family: "Source Code Pro", "SF Mono", Monaco, Inconsolata, "Fira Mono", "Droid Sans Mono", monospace;
+  white-space: pre;
+  display: block;
+  padding: 1em;
+  margin-bottom: 1em;
+  border-bottom: 2px solid black;
+  content: "Error: Undefined variable.\n    \00A7 \n 10 \00BB      font-family: $font-stack;\\d\n    \00BB                   ^^^^^^^^^^^\n    \00B7 \n   src\\scss\\partials\\_base.scss 10:18  @use\n   src\\scss\\main.scss 3:1              root stylesheet";
+}
+

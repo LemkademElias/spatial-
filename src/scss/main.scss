@@ -1,0 +1,20 @@
+// Import Bootstrap et FontAwesome via npm
+@use "../../node_modules/bootstrap/scss/bootstrap";
+@use "../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome";
+@use "../../node_modules/@fortawesome/fontawesome-free/scss/solid";
+@use "../../node_modules/@fortawesome/fontawesome-free/scss/brands";
+@use "../../node_modules/@fortawesome/fontawesome-free/scss/regular";
+@use 'src/scss/partials/base';
+
+@use "partials/variables" as *;
+@use "partials/mixins";
+@use "partials/base";
+@use "partials/navbar";
+@use "partials/header";
+@use "partials/section1";
+@use "partials/section2";
+@use "partials/section3";
+@use "partials/section4";
+@use "partials/footer";
+@use "partials/icons";
+@use "partials/responsive";

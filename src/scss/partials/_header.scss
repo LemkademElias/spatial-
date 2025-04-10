@@ -1,0 +1,25 @@
+// src/scss/partials/_header.scss
+
+.hero-section {
+    background: url('../../public/img/banner.jpg') no-repeat center center/cover;
+    height: 100vh;
+  
+    .container {
+      z-index: 2;
+      position: relative;
+    }
+  
+    &::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.6);
+      z-index: 1;
+    }
+  
+    h1, p {
+      position: relative;
+      z-index: 2;
+    }
+  }
+  

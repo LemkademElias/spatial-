@@ -1,17 +1,97 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>spatial</title>
-  <link rel="stylesheet" href="dist/css/style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Spatial</title>
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="public/img/favicon.png" />
+
+  <!-- CSS compilé -->
+  <link rel="stylesheet" href="public/styles/style.css" />
+
+  <!-- Bootstrap & FontAwesome  -->
+  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 </head>
 <body>
 
-  <div class="container text-center mt-5">
-    <h1 class="text-primary"><i class="fas fa-star"></i> Bienvenue !</h1>
-    <p class="lead">Tu utilises Sass, Bootstrap et Font Awesome comme un pro.</p>
-  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <div class="container">
+      <a class="navbar-brand" href="#">Spatial</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link active" href="#section1">Accueil</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section2">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section3">À propos</a></li>
+          <li class="nav-item"><a class="nav-link" href="#section4">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <!-- Hero/Header -->
+  <header class="hero-section d-flex align-items-center justify-content-center text-center" id="section1">
+    <div class="container">
+      <h1 class="display-3 text-white fw-bold">Explorez l’Univers Digital</h1>
+      <p class="lead text-light">Un site moderne, rapide, efficace</p>
+      <a href="#section2" class="btn btn-primary mt-4">Découvrir</a>
+    </div>
+  </header>
+
+  <!-- Section 2 : Services -->
+  <section id="section2" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="mb-4">Nos Services</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <i class="fas fa-code icon"></i>
+          <h4>Développement Web</h4>
+          <p>Création de sites modernes et responsives pour tous les besoins.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-paint-brush icon"></i>
+          <h4>Design Graphique</h4>
+          <p>Logos, visuels, identité visuelle impactante et professionnelle.</p>
+        </div>
+        <div class="col-md-4">
+          <i class="fas fa-mobile-alt icon"></i>
+          <h4>Responsive Design</h4>
+          <p>Une navigation fluide sur tous les écrans, mobiles et tablettes.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Section 3 : À propos -->
+  <section id="section3" class="py-5 text-center">
+    <div class="container">
+      <h2 class="mb-4">À propos de nous</h2>
+      <p class="lead">Une équipe passionnée de création digitale, dédiée à l’excellence.</p>
+      <p>Nous mettons la technologie au service de vos idées. Chaque projet est unique, et nous le traitons comme tel, avec attention et créativité.</p>
+    </div>
+  </section>
+
+  <!-- Section 4 : Contact -->
+  <section id="section4" class="py-5 bg-light text-center">
+    <div class="container">
+      <h2 class="mb-4">Contactez-nous</h2>
+      <p class="lead">Envie de discuter d’un projet ? On est à votre écoute.</p>
+      <a href="mailto:contact@spatial.site" class="btn btn-outline-primary">Envoyer un mail</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center py-3">
+    <p>&copy; 2025 Spatial. Tous droits réservés.</p>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
