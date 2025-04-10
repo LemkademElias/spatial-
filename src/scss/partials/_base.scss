@@ -1,18 +1,11 @@
-// src/scss/partials/_base.scss
-$font-stack: 'Helvetica, Arial, sans-serif';
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: $font-stack;
-    background-color: $light-color;
-    color: $dark-color;
-    line-height: 1.6;
+@use './variables' as *;
+html {
     scroll-behavior: smooth;
   }
+
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    
+}
   

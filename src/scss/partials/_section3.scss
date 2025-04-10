@@ -1,15 +1,53 @@
-// À propos section
+.entete {
+  text-align: center;
+  padding: 5% ;
+}
 
-#section3 {
-    background-color: #fff;
-  
-    h2 {
-      color: $primary-color;
-    }
-  
-    p {
-      max-width: 700px;
-      margin: 0 auto;
-    }
-  }
-  
+.entete h1 {
+  color: #302f2f;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.entete p {
+  color: #928e8e;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.section-fonctionnalites {
+  padding-bottom: 5%;
+}
+
+.element {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5%;
+}
+
+.image {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+
+.titre {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #373636;
+}
+
+.sous-titre {
+  color: #969393;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.texte {
+  font-size: 14px;
+  color: #656161;
+  line-height: 1.6;
+  margin-bottom: 0;
+}

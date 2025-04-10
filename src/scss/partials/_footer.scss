@@ -1,8 +1,27 @@
-// Footer
+.icones-sociales {
+  display: flex;
+  justify-content: center;
+  gap: 5%;
+  padding-top: 2%;
+}
 
-footer {
-    background-color: $dark-color;
-    color: #fff;
-    font-size: 0.9rem;
-  }
-  
+.icone-sociale {
+  font-size: 30px;
+  color: gray;
+  opacity: 0.6;
+}
+
+.texte-copyright {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+  color: gray;
+  opacity: 0.6;
+}
+
+.texte-copyright p:nth-child(2) {
+  border-right:  1px solid rgb(156, 153, 153);
+  border-left:  1px solid rgb(156, 153, 153);
+  padding-right: 20px;
+  padding-left: 20px;
+}

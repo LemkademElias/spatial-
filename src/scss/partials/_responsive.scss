@@ -1,0 +1,133 @@
+@media (max-width: 992px) {
+    .conteneur_nav {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    
+    .liste_nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .titre_header {
+        font-size: 40px;
+    }
+    
+    .texte_header {
+        font-size: 20px;
+    }
+    
+    .section_maecenas {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 15px;
+    }
+    
+    .titre_maecenas,
+    .para_maecenas {
+        width: 100%;
+        max-width: 100%;
+    }
+    
+    .titre_maecenas h1,
+    .titre_maecenas h4 {
+        margin-left: 0;
+    }
+    
+    .para_maecenas p {
+        margin-right: 0;
+        padding: 0 10px;
+    }
+    
+    .banniere {
+        height: auto;
+        padding: 50px 20px;
+    }
+    
+    .titre-principal {
+        font-size: 30px;
+    }
+    
+    .sous-titre {
+        font-size: 16px;
+    }
+    
+    .texte-copyright {
+        flex-direction: column;
+        gap: 8px;
+        text-align: center;
+    }
+    
+    .texte-copyright p:nth-child(2) {
+        border: none;
+        padding: 0;
+    }
+    
+    .icones-sociales {
+        gap: 20px;
+        padding-top: 20px;
+    }
+    }
+    
+    
+    
+    @media (max-width: 768px) {
+    .titre_header {
+        font-size: 30px;
+        margin-top: 30%;
+    
+    }
+    
+    .bouton_header {
+        margin-top: 10%;
+    }
+    
+    .texte_header {
+        font-size: 16px;
+        
+    }
+    
+    .section_maecenas {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 30px 10px;
+    }
+    
+    .titre_maecenas h1 {
+        font-size: 26px;
+    }
+    
+    .titre_maecenas h4 {
+        font-size: 16px;
+        opacity: 0.5;
+    }
+    
+    .para_maecenas p {
+        font-size: 14px;
+        padding: 10px;
+        text-align: justify;
+    }
+    
+    .titre-principal {
+        font-size: 24px;
+    }
+    
+    .sous-titre {
+        font-size: 14px;
+    }
+    
+    .icones-sociales {
+        gap: 10px;
+    }
+    
+    .icone-sociale {
+        font-size: 24px;
+    }
+    
+    .texte-copyright {
+        gap: 6px;
+        font-size: 14px;
+    }
+    }

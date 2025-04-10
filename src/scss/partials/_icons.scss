@@ -1,8 +1,4 @@
-// src/scss/partials/_icons.scss
-
-.icon {
-    font-size: 2rem;
-    color: $primary-color;
-    margin-right: 0.5rem;
-  }
-  
+@use '../../../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@use '../../../node_modules/@fortawesome/fontawesome-free/scss/regular.scss' with($fa-font-path: '../assets/webfonts');
+@use '../../../node_modules/@fortawesome/fontawesome-free/scss/brands.scss' with($fa-font-path: '../assets/webfonts');
+@use '../../../node_modules/@fortawesome/fontawesome-free/scss/solid.scss'  with($fa-font-path: '../assets/webfonts');

@@ -1,97 +1,183 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Spatial</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SPATIAL</title>
+    <link rel="stylesheet" href="./public/styles/style.css">
+    <script defer src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <script defer src="./node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss"></script>
 
-  <!-- Favicon -->
-  <link rel="icon" type="image/png" href="public/img/favicon.png" />
-
-  <!-- CSS compilé -->
-  <link rel="stylesheet" href="public/styles/style.css" />
-
-  <!-- Bootstrap & FontAwesome  -->
-  <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="./node_modules/@fortawesome/fontawesome-free/css/all.min.css">
 </head>
 <body>
 
-  <!-- Navbar -->
-  <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3">
-    <div class="container">
-      <a class="navbar-brand" href="#">Spatial</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link active" href="#section1">Accueil</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section2">Services</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section3">À propos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#section4">Contact</a></li>
+<section class="section_nav_header">
+    <!-- Je mets l'image ici -->
+    <img class="image_header" src="./public/img/banner.jpg" alt="">
+
+    <!-- Ici y a la navbar -->
+    <nav class="barre_nav">
+      <div class="conteneur_nav d-flex justify-content-between align-items-center m-5 px-2">
+        <div class="logo_site text-white">
+          <p><strong>SPATIAL</strong> BY TEMPLATED</p>
+        </div>
+        <ul class="liste_nav d-flex list-unstyled m-0">
+          <li><a class="px-4 text-light" href="https://google.com" target="_blank">HOME</a></li>
+          <li><a class="px-4 text-light" href="#">GENERIC</a></li>
+          <li><a class="px-4 text-light" href="#">ELEMENTS</a></li>
         </ul>
       </div>
-    </div>
-  </nav>
+    </nav>
+  
+    <!-- Ici y a le header -->
+    <header class="header">
+      <div class="contenu_header text-center text-white">
+        <h1 class="titre_header py-2">SPATIAL</h1>
+        <p class="texte_header text-light">Lorem, ipsum dolor sit amet consectetur adipisicing.</p>
+        <p class="texte_header text-light">Lorem ipsum dolor sit amet consectetur.</p>
+        <a href="#" class="btn btn-danger bouton_header px-4 py-2 fw-bold">GET STARTED</a>
+      </div>
+    </header>
+</section>
+  
+<!-- Ici je mets la première section -->
+<section class="section_maecenas d-flex justify-content-center align-items-start">
+  <div class="titre_maecenas col-5">
+    <h1 class="fw-bold mb-3">MAECENAS <br>LUCTUS LECTUS</h1>
+    <h4 class="text-secondary">PERSPICIATIS DOLOREMQUE <br>RECUSANDAE DOLOR</h4>
+  </div>
+  
+  <div class="para_maecenas col-6 ">
+    <p class="text-secondary">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, voluptatum omnis veniam praesentium a ut eos quia quod inventore voluptate quaerat, tempora earum aut distinctio sapiente suscipit laudantium. Est ducimus provident ex maiores velit quo, iste autem assumenda amet ea.
+    </p>
+    <p class="text-secondary mt-4">
+      Dolor sit amet consectetur adipisicing elit. Saepe, voluptates corporis blanditiis assumenda doloribus consequatur debitis cupiditate minima nostrum ex modi explicabo iste, pariatur eaque? Recusandae perspiciatis quae omnis, mollitia laudantium vitae ut ullam illo officiis laborum modi odit architecto iste ab.
+    </p>
+  </div>
+</section>
 
-  <!-- Hero/Header -->
-  <header class="hero-section d-flex align-items-center justify-content-center text-center" id="section1">
-    <div class="container">
-      <h1 class="display-3 text-white fw-bold">Explorez l’Univers Digital</h1>
-      <p class="lead text-light">Un site moderne, rapide, efficace</p>
-      <a href="#section2" class="btn btn-primary mt-4">Découvrir</a>
-    </div>
-  </header>
+<!-- Ici je mets la deuxiume section -->
+<section class="section_galerie py-5 text-center bg-light mt-3">
+  <div class="container">
+    <h2 class="fw-bold mb-2">FUSCE ULTRICES FRINGILLA</h2>
+    <p class="text-secondary mb-5">MAECENAS VITAE TELLUS FEUGIAT ELEIFEND</p>
 
-  <!-- Section 2 : Services -->
-  <section id="section2" class="py-5 bg-light text-center">
-    <div class="container">
-      <h2 class="mb-4">Nos Services</h2>
-      <div class="row g-4">
-        <div class="col-md-4">
-          <i class="fas fa-code icon"></i>
-          <h4>Développement Web</h4>
-          <p>Création de sites modernes et responsives pour tous les besoins.</p>
+    <div class="row justify-content-center">
+      <div class="col-md-5 m-3 p-0 shadow-sm bg-white">
+        <img src="./public/img/pic02.jpg" alt="Plage" class="img-fluid">
+        <div class="p-3">
+          <p class="mb-0 text-uppercase fw-semibold">Lorem ipsum dolor sit.</p>
         </div>
-        <div class="col-md-4">
-          <i class="fas fa-paint-brush icon"></i>
-          <h4>Design Graphique</h4>
-          <p>Logos, visuels, identité visuelle impactante et professionnelle.</p>
-        </div>
-        <div class="col-md-4">
-          <i class="fas fa-mobile-alt icon"></i>
-          <h4>Responsive Design</h4>
-          <p>Une navigation fluide sur tous les écrans, mobiles et tablettes.</p>
+      </div>
+
+      <div class="col-md-5 m-3 p-0 shadow-sm bg-white">
+        <img src="./public/img/pic03.jpg" alt="Forêt" class="img-fluid">
+        <div class="p-3">
+          <p class="mb-0 text-uppercase fw-semibold">Lorem ipsum dolor sit amet.</p>
         </div>
       </div>
     </div>
-  </section>
 
-  <!-- Section 3 : À propos -->
-  <section id="section3" class="py-5 text-center">
-    <div class="container">
-      <h2 class="mb-4">À propos de nous</h2>
-      <p class="lead">Une équipe passionnée de création digitale, dédiée à l’excellence.</p>
-      <p>Nous mettons la technologie au service de vos idées. Chaque projet est unique, et nous le traitons comme tel, avec attention et créativité.</p>
+    <div class="mt-5 d-flex justify-content-center gap-3">
+      <a href="#" class="btn btn-danger px-4">Lorem, ipsum.</a>
+      <a href="#" class="btn btn-dark px-4">Lorem, ipsum.</a>
     </div>
+  </div>
+</section>
+
+<!-- Ici je mets la troisième section avec les images etc -->
+<div class="container">
+  <header class="entete">
+      <h1>Mauris Vulputate Dolor</h1>
+      <p>Feugiat sed lorem ipsum magna</p>
+  </header>
+
+  
+  
+  <section class="section-fonctionnalites">
+      <div class="row">
+          <div class="col-md-6 text-end">
+              <div class="element">
+                  <div class="contenu">
+                      <h3 class="titre">Lorem Ipsum</h3>
+                      <p class="sous-titre">Ornare nulla proin odio consequat</p>
+                      <p class="texte">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum corporis quibusdam molestias.</p>
+                  </div>
+                  <div class="image">
+                      <img src="./public/img/pic04.jpg" alt="">
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-md-6 text-start">
+              <div class="element">
+                  <div class="image">
+                      <img src="./public/img/pic05.jpg" alt="">
+                  </div>
+                  <div class="contenu">
+                      <h3 class="titre">Recusandae Nemo</h3>
+                      <p class="sous-titre">Quora adipisci turpis</p>
+                      <p class="texte">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse magnam aliquid est?</p>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-md-6 text-end">
+              <div class="element">
+                  <div class="contenu">
+                      <h3 class="titre">Laudantium Fugit</h3>
+                      <p class="sous-titre">Health iure sequi</p>
+                      <p class="texte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora ipsum asperiores doloribus?</p>
+                  </div>
+                  <div class="image">
+                      <img src="./public/img/pic06.jpg" alt="">
+                  </div>
+              </div>
+          </div>
+          
+          <div class="col-md-6 text-start">
+              <div class="element">
+                  <div class="image">
+                      <img src="./public/img/pic07.jpg" alt="">
+                  </div>
+                  <div class="contenu">
+                      <h3 class="titre">Porro Aliquam</h3>
+                      <p class="sous-titre">Quae ex numquam in blanditiis</p>
+                      <p class="texte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione necessitatibus amet natus.</p>
+                  </div>
+              </div>
+          </div>
+      </div>
   </section>
+</div>
 
-  <!-- Section 4 : Contact -->
-  <section id="section4" class="py-5 bg-light text-center">
-    <div class="container">
-      <h2 class="mb-4">Contactez-nous</h2>
-      <p class="lead">Envie de discuter d’un projet ? On est à votre écoute.</p>
-      <a href="mailto:contact@spatial.site" class="btn btn-outline-primary">Envoyer un mail</a>
-    </div>
-  </section>
+<!-- Section 4 -->
+<div class="banniere">
+  <div class="contenu-banniere">
+      <h1 class="titre-principal">Aenean Elementum Ligula</h1>
+      <p class="sous-titre">Feugiat sed lorem ipsum magna</p>
+      <button class="btn btn-danger bouton-contact px-4 py-2 fw-bold">Get in Touch</button>
+  </div>
+</div>
 
-  <!-- Footer -->
-  <footer class="bg-dark text-white text-center py-3">
-    <p>&copy; 2025 Spatial. Tous droits réservés.</p>
-  </footer>
+<!-- Et le footer -->
+<footer class="pied-de-page py-5">
 
-  <!-- Bootstrap JS -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      <div class="icones-sociales">
+          <a href="#" class="icone-sociale"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="icone-sociale"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="icone-sociale"><i class="fab fa-instagram"></i></a>
+      </div>
+      
+      <div class="texte-copyright py-4">
+          <p>&copy; Untitled</p>
+          <p>Design: TEMPLATED</p>
+          <p>Images: Unsplash</p>
+      </div>
+  
+</footer>
+
+
 </body>
 </html>

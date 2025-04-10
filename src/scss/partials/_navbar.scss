@@ -1,18 +1,18 @@
-// src/scss/partials/_navbar.scss
+.barre_nav {
+  position: absolute;
+  width: 100%;
+  
+  z-index: 3;
+}
 
-.navbar {
-    font-weight: 500;
-  
-    .nav-link {
-      transition: color 0.3s ease;
-  
-      &:hover {
-        color: $primary-color; // couleur personnalisée
-      }
-  
-      &.active {
-        color: $primary-color;
-      }
-    }
-  }
-  
+.barre_nav a {
+  opacity: 0.6;
+
+}
+
+.logo_site {
+  font-size: 20px;}
+
+.liste_nav a {
+  text-decoration: none;
+}
